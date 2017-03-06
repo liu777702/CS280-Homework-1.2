@@ -18,8 +18,9 @@ namespace CS280_Homework_1._2
             pokemon.Category = "Lizard";
             pokemon.Abilities = "Blaze";
             pokemon.Gender = "M";
-            Console.WriteLine("編號:{0}號,名字:{1},身高:{2}公尺, 體重{3}磅",
-                pokemon.Number, pokemon.Name, pokemon.Height, pokemon.Weight);
+            Console.WriteLine("編號:{0}號,名字:{1},身高:{2}公尺, 體重:{3}磅, 能力:{4},性別:{5}"
+                , pokemon.Number, pokemon.Name, pokemon.Height, pokemon.Weight
+                , pokemon.Abilities, pokemon.Gender);
         }
     }
 }
